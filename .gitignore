@@ -1,0 +1,8 @@
+.idea/
+Worship/bin/
+Worship/obj/
+Worship\.UnitTest/obj/
+Worship/tmp/*
+Worship/myapp.log
+Worship.UnitTest/bin/
+
