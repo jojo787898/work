@@ -89,7 +89,23 @@ namespace Work.Controllers
             var assign = list;
             assign[WorkOrder].Status = "On Going";
             assign[WorkOrder].Technician = Technician;
+            
             return this.Ok(assign);
+        }
+
+        [HttpGet("api/Equipment/{id}")]
+        public IActionResult getTechnician(string id)
+        {
+            var newList = new List<Technician>();
+            foreach (var tech in listTech)
+            {
+                if (tech.Equipment.Contains(id))
+                {
+                    newList.Add(tech);
+                }
+            }
+
+            return this.Ok(newList);
         }
     }
 }
