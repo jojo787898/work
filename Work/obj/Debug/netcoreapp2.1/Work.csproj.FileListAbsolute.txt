@@ -1,0 +1,14 @@
+/Users/jonathannovecio/rice/Work/Work/bin/Debug/netcoreapp2.1/Work.deps.json
+/Users/jonathannovecio/rice/Work/Work/bin/Debug/netcoreapp2.1/Work.runtimeconfig.json
+/Users/jonathannovecio/rice/Work/Work/bin/Debug/netcoreapp2.1/Work.runtimeconfig.dev.json
+/Users/jonathannovecio/rice/Work/Work/bin/Debug/netcoreapp2.1/Work.dll
+/Users/jonathannovecio/rice/Work/Work/bin/Debug/netcoreapp2.1/Work.pdb
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.csprojAssemblyReference.cache
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.csproj.CoreCompileInputs.cache
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.RazorAssemblyInfo.cache
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.RazorAssemblyInfo.cs
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.AssemblyInfoInputs.cache
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.AssemblyInfo.cs
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.RazorTargetAssemblyInfo.cache
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.dll
+/Users/jonathannovecio/rice/Work/Work/obj/Debug/netcoreapp2.1/Work.pdb
