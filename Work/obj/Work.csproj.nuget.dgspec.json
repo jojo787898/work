@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jonathannovecio/rice/Work/Work/Work.csproj": {}
+    "/Users/yohanes/Documents/HackRIce/work/Work/Work.csproj": {}
   },
   "projects": {
-    "/Users/jonathannovecio/rice/Work/Work/Work.csproj": {
+    "/Users/yohanes/Documents/HackRIce/work/Work/Work.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jonathannovecio/rice/Work/Work/Work.csproj",
+        "projectUniqueName": "/Users/yohanes/Documents/HackRIce/work/Work/Work.csproj",
         "projectName": "Work",
-        "projectPath": "/Users/jonathannovecio/rice/Work/Work/Work.csproj",
-        "packagesPath": "/Users/jonathannovecio/.nuget/packages/",
-        "outputPath": "/Users/jonathannovecio/rice/Work/Work/obj/",
+        "projectPath": "/Users/yohanes/Documents/HackRIce/work/Work/Work.csproj",
+        "packagesPath": "/Users/yohanes/.nuget/packages/",
+        "outputPath": "/Users/yohanes/Documents/HackRIce/work/Work/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/jonathannovecio/.nuget/NuGet/NuGet.Config"
+          "/Users/yohanes/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -42,7 +42,7 @@
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.0, )",
+              "version": "[2.1.1, )",
               "autoReferenced": true
             },
             "Microsoft.NETCore.App": {
@@ -53,10 +53,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     }

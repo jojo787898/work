@@ -44,5 +44,21 @@ namespace Work.Controllers
         {
             return this.Ok(list);
         }
+
+        [HttpPut("api/insert")]
+        public IActionResult Put(string Facility, string EquipmentId, int Priority, int TimeComplete)
+        {
+            var newlist = list;
+            list.Add(new WorkId()
+            {
+                WorkOrder = list[2].WorkOrder + 1,
+                Facility = Facility,
+                EquipmentId = EquipmentId,
+                Priority = Priority,
+                TimeComplete = TimeComplete,
+                Submission = new DateTime(2001,11,11)
+            });
+            return this.Ok(newlist);
+        }
     }
 }
