@@ -1,8 +1,8 @@
 .idea/
-Worship/bin/
-Worship/obj/
-Worship\.UnitTest/obj/
-Worship/tmp/*
-Worship/myapp.log
-Worship.UnitTest/bin/
+Work/bin/
+Work/obj/
+Work\.UnitTest/obj/
+Work/tmp/*
+Work/myapp.log
+Work/.DS_Store
 

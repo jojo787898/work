@@ -37,8 +37,26 @@ namespace Work.Controllers
                 TimeComplete = 1
             },
         };
-        
-        
+
+        private readonly List<Technician> listTech = new List<Technician>()
+        {
+            new Technician()
+            {
+                Name = "Bob",
+                Equipment = "Pump"
+            },
+            new Technician()
+            {
+                Name = "Sam",
+                Equipment = "Conveyer"
+            },
+            new Technician()
+            {
+                Name = "Kim",
+                Equipment = "Separator"
+            }
+        };
+
         [HttpGet("api/user")]
         public IActionResult Get()
         {
