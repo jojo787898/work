@@ -10,5 +10,7 @@ namespace Work.Models
         public int Priority { get; set; }
         public int TimeComplete { get; set; }
         public DateTime Submission { get; set; }
+        public string Technician { get; set;  }
+        public string Status { get; set; }
     }
 }

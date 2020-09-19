@@ -4,5 +4,7 @@ namespace Work.Models
     {
         public string Name { get; set; }
         public string Equipment { get; set; }
+        
+        public int WorkOrder { get; set; }
     }
 }

@@ -16,7 +16,8 @@ namespace Work.Controllers
                 EquipmentId = "P000",
                 Priority = 1,
                 Submission = new DateTime(2001, 11, 20),
-                TimeComplete = 4
+                TimeComplete = 4,
+                Status = "open"
             },
             new WorkId()
             {
@@ -25,7 +26,8 @@ namespace Work.Controllers
                 EquipmentId = "Con000",
                 Priority = 2,
                 Submission = new DateTime(2001, 11, 21),
-                TimeComplete = 5
+                TimeComplete = 5,
+                Status = "open"
             },
             new WorkId()
             {
@@ -34,7 +36,8 @@ namespace Work.Controllers
                 EquipmentId = "Sep000",
                 Priority = 4,
                 Submission = new DateTime(2001, 11, 24),
-                TimeComplete = 1
+                TimeComplete = 1,
+                Status = "open"
             },
         };
 
@@ -74,9 +77,19 @@ namespace Work.Controllers
                 EquipmentId = EquipmentId,
                 Priority = Priority,
                 TimeComplete = TimeComplete,
-                Submission = new DateTime(2001,11,11)
+                Submission = new DateTime(2001,11,11),
+                Status = "open"
             });
             return this.Ok(newlist);
+        }
+        
+        [HttpPut("api/technician")]
+        public IActionResult Put(int WorkOrder, string Technician)
+        {
+            var assign = list;
+            assign[WorkOrder].Status = "On Going";
+            assign[WorkOrder].Technician = Technician;
+            return this.Ok(assign);
         }
     }
 }
