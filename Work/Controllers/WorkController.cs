@@ -94,7 +94,7 @@ namespace Work.Controllers
         }
 
         [HttpGet("api/Equipment/{id}")]
-        public IActionResult getTechnician(string id)
+        public IActionResult GetTechnician(string id)
         {
             var newList = new List<Technician>();
             foreach (var tech in listTech)
